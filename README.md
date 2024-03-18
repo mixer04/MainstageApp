@@ -14,7 +14,8 @@ The navigation from the mainDeckView file is simple and effective. I have used t
 For the images across the app, I have set radius to „15”, to give our users nice, iOS style.
 Article blocks are connected to the Articles file to update it more effectively. In the future, I would like to implement post adding through the API. Articles are now adding automatically when the file with description called „Articles.swift” is updated. When user clicks on the article, new screen shows up with the whole article to read. User can choose article by scrolling page.
 
-## mainSingleArticle is a detailed view of the chosen article. I used there paralax scroll on image and scroll view to give a better user experience. For ViewModel of detailed article I used isShowingDetailView model to simply open and close the sheet.
+## mainSingleArticle 
+It's a detailed view of the chosen article. I used there paralax scroll on image and scroll view to give a better user experience. For ViewModel of detailed article I used isShowingDetailView model to simply open and close the sheet.
 
 ## mainSongsView.swift
 It contains a grid view of all songs that our band has released. Each of the icons have linked album cover to it. This element is linked to the Songs.swift file with all the necessary data for each song, such as description, title, cover and URL.
